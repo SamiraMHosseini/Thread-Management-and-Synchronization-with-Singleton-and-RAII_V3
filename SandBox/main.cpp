@@ -76,7 +76,7 @@ private:
 	{
 
 		//This code shows whether the instance is created once or more than once.
-		std::cout << "Default Constructor " << std::endl;
+		Debug::out("Default Constructor\n");
 	}
 	//Internally, that's the mechanism that makes it a Singleton!
 	static ThreadCountProxy& privGetInstance()
